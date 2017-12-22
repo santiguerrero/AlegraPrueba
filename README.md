@@ -2,29 +2,51 @@
 Trabajo para Alegra, visualización de código.
                         ### Estructura de la aplicacion
 1 Desarrollo con Zend Framework
+
   1.1 application - carpeta principal
+  
     1.1.1 configs - contiene el archivo configurable de variables, variables de conexion al API
+    
     1.1.2 controllers - controladores
+    
       1.1.2.1 ApiController.php -> Comunicacion con el API, Interfaz. 
+      
     1.1.3 layouts -diseño incial.
+    
     1.1.4 models - carpeta para modelos
+    
       1.1.4.1 Contact.php - contiene la clase para la tabla
+      
       1.1.4.2 ContactMapper.php - comunica el backend de alegra
+      
     1.1.5 views - carpeta contenedora de las vistas principales
+    
   1.2 test - carpeta para tests, contiene configuracion con zend framework
-2 Frontend en **Ext.js 4.2**
+  
+2 Frontend en Ext.js 4.2
+
   2.1 public - acceso inicial, carpeta publica que contiene el index
+  
     2.1.1 app - Estructura Modelo Vista Controlador
+    
       2.1.1.1 controller - contiene el controlador de la vista
+      
       2.1.1.2 model - modelo de tabla que se debe mostrar
+      
       2.1.1.3 store - Comunica el frontend con el backend en ZendFramework
+      
       2.1.1.4 view - contiene las vistas
+      
     2.1.2 ext4 - contiene la libreria de ExtJS version 4.x
+    
     2.1.3 resources - carpeta que contiene recursos como css y las imagenes.
+    
   2.2 app.js - inicia el front end
+  
 
 
                 ###Inicializacion del proyecto para configurarlo con Zend Framework
+                
 
 Instalar composer
 Entrar en la raiz del proyecto via cmd e instalar las dependencias, estas dependencias seran instaladas automaticamente con **composer install** esto sera lo necesitado de Zend Framework, el composer verificara un archivo alojado en la raiz principal del proyecto con el require necesario.
