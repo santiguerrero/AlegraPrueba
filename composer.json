@@ -1,0 +1,14 @@
+{
+    "name": "SantiagoGuerrero/test-alegra",
+    "description": "Aplicación para proceso de selección de Alegra.com, implementado Ext.js 4.2 para el frontend y Zend Framework 1.12 para backend, comunicándose con el API de Alegra.com",
+    "type": "project",
+    "require": {
+        "zendframework/zendframework1": "^1.12"
+    },
+    "authors": [
+        {
+            "name": "Santiago Guerrero",
+            "email": "santilgunvo@gmail.com"
+        }
+    ]
+}
