@@ -45,11 +45,10 @@ Trabajo para Alegra, visualización de código.
   
 
 
-                ###Inicializacion del proyecto para configurarlo con Zend Framework
+                ###Inicializacion del proyecto zend framework configurado con composer. 
                 
 
-Instalar composer
-Entrar en la raiz del proyecto via cmd e instalar las dependencias, estas dependencias seran instaladas automaticamente con **composer install** esto sera lo necesitado de Zend Framework, el composer verificara un archivo alojado en la raiz principal del proyecto con el require necesario.
+los archivos composer.json y composer.lock fueron creados para la generacion del framework solicitado via composer ubicado en vendor y e ahi el framework. composer facilita la instalacion de la version de cada framework o framework soportado por el de una manera muy agil.
 
 
 Requisitos para la conexion de la API de Alegra.com
